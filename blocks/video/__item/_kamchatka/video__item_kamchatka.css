@@ -1,0 +1,8 @@
+
+/*Добавим картинку как background и зададим ей размеры*/
+.video__item_kamchatka {
+    background-image: url("../../../../images/kamchatka.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

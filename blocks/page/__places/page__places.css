@@ -1,0 +1,18 @@
+
+/*Уникальный настройки блока places*/
+.page__places {
+    margin-top: 92px;
+}
+
+/*Изменим расстрояние до верхнего контейнера в разных разрешениях экранов*/
+@media screen and (max-width: 1023px) {
+    .page__places {
+        margin-top: 102px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page__places {
+        margin-top: 64px;
+    }
+}

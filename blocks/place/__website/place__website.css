@@ -1,0 +1,28 @@
+
+/*разместим контейнер с урлом внизу айтема флекса*/
+.place__website {
+    width: calc((100% - 40px)/2);
+    align-self: flex-end;
+    margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__website {
+        width: calc((100% - 32px)/2);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__website {
+        width: calc((100% - 28px)/2);
+    }
+}
+
+/*Скроем контейнер с урлом для экранов с разрешением меньше 768px*/
+@media screen and (max-width: 767px) {
+    .place__website {
+        margin-top: 24px;
+        width: 90.62%;
+        display: none;
+    }
+}

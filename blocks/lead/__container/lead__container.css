@@ -1,0 +1,22 @@
+
+/*Контейнер для картинки и текста*/
+.lead__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin: 65px auto 0 auto;
+}
+
+/*Изменим отступы для разных разрешения мониторов*/
+@media screen and (max-width: 1023px) {
+    .lead__container {
+        margin: 78px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__container {
+        margin: 32px auto 0 auto;
+    }
+}

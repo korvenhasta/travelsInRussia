@@ -1,0 +1,12 @@
+
+/*Уникальные насйтроки блока video*/
+.page__video {
+    margin-top: 102px;
+}
+
+/*Изменим отступы блока для разных разрешений экранов*/
+@media screen and (max-width: 767px) {
+    .page__video {
+        margin-top: 64px;
+    } 
+}

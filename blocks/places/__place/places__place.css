@@ -1,0 +1,17 @@
+
+/*Уникальные насйтроки для контейнера со статьей*/
+.places__place {
+    margin: 0 auto 72px auto;
+}
+
+/*Уберем margin для последнего*/
+.places__place:last-of-type {
+    margin-bottom: 0;
+}
+
+/*Изменим расстояние между элементами для разрешения экрана 768px и меньше*/
+@media screen and (max-width: 767px) {
+    .places__place {
+      margin: 0 auto 48px auto;
+    }
+}

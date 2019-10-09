@@ -1,0 +1,12 @@
+
+/*уникальные настройки для блока intro*/
+.page__intro {
+    margin-top: 80px;
+}
+
+/*Изменим отступы для разных разрешений мониторов*/
+@media screen and (max-width: 767px) {
+    .page__intro {
+      margin-top: 64px;
+    }
+  }

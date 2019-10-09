@@ -1,0 +1,21 @@
+
+/*Насйтроки блока video*/
+.video {
+    max-width: 1184px;
+    font-family: "Inter Regular";
+    color: #FFFFFF;
+    margin: 0 48px;
+} 
+
+/*Изменим отступы блока для разных разрешений экранов*/
+@media screen and (max-width: 1023px) {
+    .video {
+        margin: 0 24px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .video {
+        margin: 0 16px;
+    } 
+}

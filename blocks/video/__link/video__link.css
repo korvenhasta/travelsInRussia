@@ -1,0 +1,25 @@
+
+/*Сделаем ссылку белого цвета без подчеркивания*/
+.video__link {
+    position: absolute;
+    text-decoration: none;
+    color: #FFFFFF;
+    top: 30px;
+    left: 30px;
+}
+
+/*Изменим положение ссылки в разных разрешениях экранов*/
+@media screen and (max-width: 1023px) {
+    .video__link {
+        top: 24px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__link {
+        top: 16px;
+        left: 16px;
+    }
+}
+

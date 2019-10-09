@@ -1,0 +1,12 @@
+
+/*Уникальные настройки для блока с фотографами*/
+.page__comments {
+    margin-top: 102px;
+}
+
+/*Изменим отступы в разных разрешениях экранов*/
+@media screen and (max-width: 767px) {
+    .page__comments {
+        margin-top: 64px;
+    }
+}

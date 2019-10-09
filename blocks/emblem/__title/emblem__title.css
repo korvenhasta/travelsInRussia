@@ -1,0 +1,9 @@
+
+/*Настройки для заголовка*/
+.emblem__title {
+    width: 443px;
+    font-family: "Inter Black";
+    font-size: 42px;
+    line-height: 45px;
+    color: #FFFFFF;
+}

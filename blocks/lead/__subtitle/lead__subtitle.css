@@ -1,0 +1,30 @@
+
+/*Настройки для подзаголовка*/
+.lead__subtitle {
+    font-family: 'Inter Regular';
+    color: #FFFFFF;
+    width: 583px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 48px;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+/*Изменим ширину для разных разрешения мониторов*/
+@media screen and (max-width: 1023px) {
+    .lead__subtitle {
+        width: 720px;
+    }
+}
+
+/*Изменим ширину для разных разрешения мониторов и добавим отступы для маленьких разрешений*/
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        width: 288px;
+        font-size: 16px;
+        line-height: 23px;
+        padding-top: 8px;
+    }
+} 

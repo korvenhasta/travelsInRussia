@@ -1,0 +1,30 @@
+/*Настройки для языков. Делаем margin-right для расстояния между языками*/
+.header__lang {
+    font-family: "Inter Regular";
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 23px;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+/*Меняем прозрачность и подчеркивание при наведении*/
+.header__lang:hover {
+    text-decoration: underline;
+    transition: color 1s linear 0.5s;
+    opacity: 0.7;
+}
+
+/*Обнуляем последний элемент с языком, чтобы он прилипал к правому краю элемента header*/
+.header__lang:last-of-type {
+    margin: 0;
+}
+
+/*Изменим размеры шрифта на разрешении экрана от 767px*/
+@media screen and (max-width: 767px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 17px;
+        margin-right: 16px;
+    }
+}

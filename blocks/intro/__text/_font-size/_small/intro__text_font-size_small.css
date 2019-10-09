@@ -1,0 +1,6 @@
+
+/*Добавим модификатор для размера текста*/
+.intro__text_font-size_small {
+    font-size: 10px;
+    line-height: 16px;
+}

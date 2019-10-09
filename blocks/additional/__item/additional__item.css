@@ -1,0 +1,10 @@
+
+/*контейнер для заголовка и текста на картинке*/
+.additional__item {
+    position: relative;
+    width: 284px;
+    height: 330px;
+    margin: 0;
+    border-radius: 5px;
+    margin: 0;
+}  

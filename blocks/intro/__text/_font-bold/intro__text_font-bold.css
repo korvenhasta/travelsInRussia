@@ -1,0 +1,7 @@
+
+/*Сделаем шрифт полужирным*/
+.intro__text_font-bold {
+    font-weight: bold;
+    font-family: 'Inter Regular';
+    color: #FFFFFF;
+}

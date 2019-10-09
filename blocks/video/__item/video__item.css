@@ -1,0 +1,44 @@
+
+/*Настройки для элемента контейнера с видео*/
+.video__item {
+    position: relative;
+    width: 583px;
+    height: 323px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+/*Изменим ширину и высоту элемента под разные разрешения экрана*/
+@media screen and (max-width: 1279px) {
+    .video__item {
+        width: 456px;
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video__item {
+        width: 352px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__item {
+        width: 343px;
+        height: 200px;
+        margin-bottom: 8px;
+    }
+
+    .video__item:last-of-type {
+        margin-bottom: 0;
+    }
+} 
+
+@media screen and (max-width: 374px) {
+    .video__item {
+        width: 288px;
+        height: 192px;
+        margin-bottom: 8px;
+    }
+} 

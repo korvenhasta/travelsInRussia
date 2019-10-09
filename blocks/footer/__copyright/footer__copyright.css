@@ -1,0 +1,17 @@
+
+/*Настройки для текста копирайт и автора работы*/
+.footer__copyright {
+    width: 282px;
+    font-family: "Inter Regular";
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/*Изменим положение элемента в разных разрешениях экранов*/
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        text-align: left;
+      }
+}

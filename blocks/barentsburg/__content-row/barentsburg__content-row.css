@@ -1,0 +1,8 @@
+
+/*насйтроки для контейнера с текстом*/
+.barentsburg__content-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+}

@@ -1,0 +1,10 @@
+
+/*настройки для текста-описания*/
+.barentsburg__text {
+    width: 380px;
+    font-family: "Inter Regular";
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+}

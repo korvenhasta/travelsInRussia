@@ -1,0 +1,16 @@
+
+/*Настройки для контейнера с видео*/
+.video__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+} 
+
+/*Изменим направление элементов контейнера для экранов меньше 768px*/
+@media screen and (max-width: 767px) {
+    .video__container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,16 @@
+
+/*Настройки для текста URL*/
+.place__url {
+    height: 18px;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/*Затемним при наведении мыши*/
+.place__url:hover {
+    opacity: 0.7;
+    transition: color 1s linear 0.5s;
+}

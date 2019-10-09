@@ -1,0 +1,18 @@
+
+.place__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto 36px auto;
+}
+
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+/*изменим размер шрифта и ширину для разных разрешений экранов*/
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

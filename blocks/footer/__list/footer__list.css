@@ -1,0 +1,26 @@
+
+/*Настройки для контейнера со ссылками на полезные ресурсы*/
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    list-style: none;
+}
+
+/*Изменим ширину и направление флекса, чтобы элементы списка выстроились в колонку в разных разрешениях экранов*/
+@media screen and (max-width: 1279px) {
+    .footer__list {
+        width: 70%;
+      }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__list {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+      }
+}

@@ -1,0 +1,13 @@
+
+/*заголовок*/
+.additional__heading {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    width: 248px;
+    font-family: "Inter Black";
+    font-size: 27px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 0;
+}

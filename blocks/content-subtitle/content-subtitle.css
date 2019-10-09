@@ -1,0 +1,37 @@
+
+/*Настройки для подзаголовка. Используем height, потому что есть перенос строки*/
+.content-subtitle {
+    width: 52%;
+    font-family: "Inter Regular";
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 48px auto 72px auto;
+}
+
+/*Изменим размеры шрифта, ширину и отступы для разных разрешений экранов*/
+@media screen and (max-width: 1279px) {
+    .content-subtitle {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .content-subtitle {
+        width: 86%;
+        font-size: 24px;
+        line-height: 34px;
+        margin: 24px auto 56px auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .content-subtitle {
+        width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 16px auto 24px auto;
+    }
+}

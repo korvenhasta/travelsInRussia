@@ -1,0 +1,41 @@
+
+/*Заголовок на картинке с Байкалом*/
+.cover__title {
+    width: 1094px;
+    font-family: "Inter Black";
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFDFD;
+    margin: 0 auto 134px 39px;
+}
+
+/*Изменим размеры шрифта, отступы и ширину в разных разрешениях экранов*/
+@media screen and (max-width: 1279px) {
+    .cover__title {
+        margin: 0 auto 70px 261px;
+        width: 522px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__title {
+        margin: 0 auto 45px auto;
+        width: 720px;
+    }
+}
+  
+@media screen and (max-width: 767px) {
+    .cover__title {
+        width: 343px;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto 16px auto;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .cover__title {
+        width: 288px;
+    }
+}

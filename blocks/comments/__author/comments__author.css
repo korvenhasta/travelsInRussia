@@ -1,0 +1,16 @@
+
+/*Настройки для автора цитаты*/
+.comments__author {
+    font-family: "Inter Black";
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/*Изменим отступы в разных разрешениях экранов*/
+@media screen and (max-width: 1023px) {
+    .comments__author {
+        margin: 0 auto 16px auto;
+    }
+}

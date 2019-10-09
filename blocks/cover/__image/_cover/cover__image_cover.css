@@ -1,0 +1,8 @@
+
+/*картинка background*/
+.cover__image_cover {
+    background-image: url("../../../../images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 

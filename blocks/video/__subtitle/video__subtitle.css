@@ -1,0 +1,30 @@
+
+/*Насйтроки для подзаголовка видео*/
+.video__subtitle {    
+    width: 285px;
+    font-family: "Inter Regular";
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 0 auto 30px 30px;
+}
+
+/*Изменим ширину и отступы в разных разрешениях экранов*/
+@media screen and (max-width: 1279px) {
+    .video__subtitle {
+        margin: 0 auto 35px 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video__subtitle {
+        margin: 0 auto 24px 24px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__subtitle {
+        width: 256px;
+        margin: 0 auto 16px 16px;
+    }
+} 

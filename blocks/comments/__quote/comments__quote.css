@@ -1,0 +1,23 @@
+
+/*Настройки для цитаты*/
+.comments__quote {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: normal;
+    margin: 0 auto 24px auto;
+}
+
+/*Изменим отступы и размер шрифта в разных разрешениях экранов*/
+@media screen and (max-width: 1279px) {
+    .comments__quote {
+        margin: 0 auto 16px auto;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .comments__quote {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0;
+    }
+}

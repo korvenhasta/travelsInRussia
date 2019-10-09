@@ -1,0 +1,28 @@
+
+/*для объединения двух p в одну колонку, чтобы не использовать br*/
+.intro__content-col{
+    margin: 0 auto;
+}
+
+/*Зададим фиксированную ширину первой колонке*/
+.intro__content-col:first-child {
+    width: 683px;
+}
+
+/*Зададим фиксированную ширину второй колонке*/
+.intro__content-col:last-child {
+    display: none;
+    width: 283px;
+}
+
+/*Уберем margin у последнего элемента*/
+.intro__content-col:last-of-type {
+    margin-right: 0;
+}
+
+/*Изменим размещение текста на экране с разрешением 1024px и меньше*/
+@media screen and (max-width: 1023px) {
+    .intro__content-col:first-child {
+      width: 100%;
+    }
+}

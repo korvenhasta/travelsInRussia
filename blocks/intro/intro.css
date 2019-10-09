@@ -1,0 +1,35 @@
+@import url("./__title/intro__title.css");
+@import url("./__subtitle/intro__subtitle.css");
+@import url("./__content-row/intro__content-row.css");
+@import url("./__content-col/intro__content-col.css");
+@import url("./__text/intro__text.css");
+@import url("./__text/_font-size/_small/intro__text_font-size_small.css");
+@import url("./__text/_font-size/_medium/intro__text_font-size_medium.css");
+@import url("./__text/_font-bold/intro__text_font-bold.css");
+@import url("./__list/intro__list.css");
+
+
+/*Настройки для блока intro*/
+.intro {
+  max-width: 1280px;
+  margin: 0 148px;
+}
+
+/*Изменим отступы для разных разрешения мониторов*/
+@media screen and (max-width: 1279px) {
+    .intro {
+      margin: 0 48px;
+    }
+  }
+  
+@media screen and (max-width: 1023px) {
+  .intro {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    margin: 0 16px;
+  }
+}

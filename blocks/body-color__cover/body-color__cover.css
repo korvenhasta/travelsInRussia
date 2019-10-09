@@ -1,0 +1,12 @@
+
+/*Сделаем у боди цвет страницы, чтобы на больших экранах не было белых полосок по бокам и добавим сглаживание шрифтов*/
+.body-color__cover {
+    background-color: #2A2C2F;
+    margin: 0 auto;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}

@@ -1,0 +1,20 @@
+
+/*Размеры картинки лого*/
+.header__image {
+    width: 176px;
+    height: 52px;
+}
+
+/*Меняем прозрачность при наведении мыши*/
+.header__image:hover {
+    opacity: 0.7;
+    transition: color 1s linear 0.5s;
+}
+
+/*Адаптируем размер лого на экране, размером меньше 768px*/
+@media screen and (max-width: 767px) {
+    .header__image {
+        width: 142px;
+        height: 42px;
+    }
+}

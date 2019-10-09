@@ -1,0 +1,20 @@
+/*Вспомогательный контейнер, чтобы в адаптивной верстке поменять местами заметку и автора*/
+.comment__container-reverse {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+}
+
+/*Изменим направление флекса на реверс, чтобы сначала шла строка с автором, а потом с заметкой*/
+@media screen and (max-width: 1023px) {
+    .comment__container-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        margin: 0 auto 24px auto;
+    }
+
+    .comment__container-reverse:last-of-type {
+        margin: 0;
+    }
+}

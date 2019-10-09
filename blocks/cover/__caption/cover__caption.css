@@ -1,0 +1,7 @@
+
+/*Добавим описание к картинке-фону*/ 
+.cover__caption {
+    margin: 0;
+    position: absolute; 
+    left: -99999999px;
+}

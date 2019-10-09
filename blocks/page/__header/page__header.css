@@ -1,0 +1,12 @@
+
+/*Уникальные настройки для header*/
+.page__header {
+    padding-top: 30px;
+}
+
+/*Настроим отступы для разных разрешений экранов*/
+@media screen and (max-width: 767px) {
+    .page__header {
+        padding-top: 16px;
+    }
+}

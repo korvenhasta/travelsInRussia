@@ -1,0 +1,10 @@
+
+/*Добавим background черного цвета практически прозрачный*/
+.additional__item-bg {
+    position: absolute;
+    width: 284px;
+    height: 330px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 0;
+}

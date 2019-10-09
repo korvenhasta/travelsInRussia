@@ -1,0 +1,16 @@
+
+/*Контейнер для элементами с фотографами*/
+.comments__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*Изменим направление флекса и положение элементов*/
+@media screen and (max-width: 1023px) {
+    .comments__container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

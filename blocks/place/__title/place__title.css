@@ -1,0 +1,35 @@
+
+/*Настройки для заголовка места*/
+.place__title {
+    width: calc((100% - 40px)/2);
+    font-family: "Inter Black";
+    font-size: 72px;
+    line-height: 65px;
+    text-align: left;
+    margin: 0;
+}
+
+/*Изменим размер шрифта и отступы для разных разрешений экранов*/
+@media screen and (max-width: 1279px) {
+    .place__title {
+        width: calc((100% - 32px)/2);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__title {
+        width: calc((100% - 28px)/2);
+        font-size: 42px;
+        line-height: 46px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        text-align: left;
+        margin-left: 16px;
+    }
+}

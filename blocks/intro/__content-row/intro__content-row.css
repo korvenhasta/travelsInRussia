@@ -1,0 +1,20 @@
+
+/*Контейнер для двух колонок с текстом*/
+.intro__content-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px auto 0px auto;
+    font-family: 'Inter Regular';
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+/*Изменим размеры текста в контейнере для разрешения 768px*/
+@media screen and (max-width: 767px) {
+    .intro__content-row {
+        margin: 32px auto 0px auto;
+        font-size: 16px;
+        line-height: 27px;
+    }
+} 

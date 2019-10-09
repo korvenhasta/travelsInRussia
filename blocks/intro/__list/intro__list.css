@@ -1,0 +1,13 @@
+
+.intro__list {
+    margin-top: 24px;
+    padding: 0;
+    list-style: none;
+}
+
+/*Изменим отступы для разных разрешений мониторов*/
+@media screen and (max-width: 767px) {
+    .intro__list {
+        margin-top: 32px;
+    }
+}

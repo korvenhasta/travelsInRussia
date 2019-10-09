@@ -1,0 +1,33 @@
+
+/*Фотография фотографа. Сделаем ее в круге*/
+.comments__image {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 97px;
+    height: 97px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 42px;
+}
+
+/*Изменим отступы и ширину в разных разрешениях экранов*/
+@media screen and (max-width: 1279px) {
+    .comments__image {
+        margin-bottom: 40px;
+    } 
+}
+
+@media screen and (max-width: 1023px) {
+    .comments__image {
+        margin-bottom: 16px;
+    } 
+}
+
+@media screen and (max-width: 374px) {
+    .comments__image {
+        margin-bottom: 17px;
+        width: 96px;
+        height: 96px;
+    } 
+}

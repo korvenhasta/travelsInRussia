@@ -1,0 +1,7 @@
+
+/*Сделаем подроюбное описание для лучшей семантики*/
+.video__caption {
+    margin: 0;
+    position: absolute; 
+    left: -99999999px;
+}

@@ -1,0 +1,19 @@
+
+/*Настройки для блока с фотографами*/
+.comments {
+    max-width: 1184px;
+    margin: 0 48px;
+}
+
+/*Изменим отступы в разных разрешениях экранов*/
+@media screen and (max-width: 1023px) {
+    .comments {
+        margin: 0 54px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .comments {
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,18 @@
+
+/*Настройки для заголовка*/
+.intro__title {
+    font-family: 'Inter Black';
+    font-size: 54px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/*Изменим заголовок для разных разрешений экранов*/
+@media screen and (max-width: 767px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

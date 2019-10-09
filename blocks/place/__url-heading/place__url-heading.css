@@ -1,0 +1,10 @@
+
+/*Настройки для слова URL*/
+.place__url-heading {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    text-transform: uppercase;
+    margin: 0 auto 16px auto;
+}

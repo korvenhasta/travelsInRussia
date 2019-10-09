@@ -1,0 +1,13 @@
+
+/*Настройки для текста*/
+.additional__text {
+    position: absolute;
+    top: 246px;
+    left: 18px;
+    width: 248px;
+    font-family: "Inter Regular";
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}

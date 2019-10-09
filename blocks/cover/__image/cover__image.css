@@ -1,0 +1,37 @@
+
+/*Настройки фоновой картинки*/
+.cover__image {
+    position: relative;
+    width: 1184px;
+    height: 594px;
+    margin: 0 auto;
+}
+
+/*Изменим размеры картинки в разных разрешениях экранов*/
+@media screen and (max-width: 1279px) {
+    .cover__image {
+        width: 1045px;
+        height: 562px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__image {
+        width: 768px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__image {
+        width: 375px;
+        height: 272px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .cover__image {
+        width: 320px;
+        height: 216px;
+    }
+}

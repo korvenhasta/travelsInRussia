@@ -1,0 +1,25 @@
+@import url("../lead/__title/lead__title.css");
+@import url("../lead/__subtitle/lead__subtitle.css");
+@import url("../lead/__image/lead__image.css");
+@import url("../lead/__caption/lead__caption.css");
+@import url("../lead/__container/lead__container.css");
+
+/*Настройки для блока lead*/
+.lead {
+    max-width: 1280px;
+    margin: 0 148px;
+}
+
+/*Настроим ширину блока для мониторов меньше 1280px*/
+@media screen and (max-width: 1279px) {
+    .lead {
+        margin: 0 48px;
+    }
+}
+
+/*Настроим ширину блока для экранов меньше 1024px*/
+@media screen and (max-width: 1023px) {
+    .lead {
+        margin: 0;
+    }
+}

@@ -1,0 +1,9 @@
+
+/*Контейнер для элементов с карточками мест*/
+.additional__container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}

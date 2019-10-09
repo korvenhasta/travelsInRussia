@@ -1,0 +1,28 @@
+
+/*Насйтроки для текста Продолжительность видео*/
+.video__duration {
+    width: 44px;
+    top: 165px;
+    left: 30px;
+    font-family: "Inter Regular";
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    margin: 0 auto 12px 30px;
+}
+
+/*Изменим ширину и отступы в разных разрешениях экранов*/
+@media screen and (max-width: 1023px) {
+    .video__duration {
+        width: 46px;
+        margin: 0 auto 8px 24px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__duration {
+        width: 80px;
+        margin: 0 auto 8px 16px;
+    }
+} 

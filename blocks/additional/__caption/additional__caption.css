@@ -1,0 +1,6 @@
+
+/*Добавим описание к картинке-фону*/ 
+.additional__caption {
+    margin: 0;
+    visibility: hidden;
+}

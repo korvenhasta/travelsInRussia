@@ -1,0 +1,5 @@
+
+/*Сделаем активный язык подчеркнутым*/
+.header__lang_active {
+    text-decoration: underline;
+}

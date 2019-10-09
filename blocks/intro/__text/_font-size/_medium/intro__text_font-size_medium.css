@@ -1,0 +1,15 @@
+
+.intro__text_font-size_medium {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Inter Regular';
+    color: #FFFFFF;
+}
+
+/*Изменим размер шрифта для разрешения 768 и меньше*/
+@media screen and (max-width: 767px) {
+    .intro__text_font-size_medium {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

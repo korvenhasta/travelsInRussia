@@ -1,0 +1,12 @@
+
+/*уникальные настройки для блока с Байкалом*/
+.page__cover {
+    margin-top: 102px;
+}
+
+/*Изменим отступы в разных разрешениях экранов*/
+@media screen and (max-width: 767px) {
+    .page__cover {
+        margin-top: 48px;
+    }
+}

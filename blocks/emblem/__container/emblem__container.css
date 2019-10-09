@@ -1,0 +1,8 @@
+
+/*Настройки для контейнера с гербами городов*/
+.emblem__container {
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
